@@ -1,0 +1,102 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://example.org/iiif/book1/manifest",
+  "@type": "sc:Manifest",
+  "label": "Case Study 1",
+  "metadata": [
+    {
+      "label": "Author",
+      "value": "Sara Diamond"
+    },
+    {
+      "label": "Date",
+      "value": "2023-03-7"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://example.org/iiif/book1/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Normal Sequence",
+      "canvases": [
+
+
+        {
+          "@id": "http://example.org/iiif/book1/canvas/p1",
+          "@type": "sc:Canvas",
+          "label": "The Working Image",
+          "height": 1500,
+          "width": 1000,
+
+         
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4444/assets/Photos/TheWorkingImage_24.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1500,
+                "width": 1000
+              },
+              "on": "http://example.org/iiif/book1/canvas/p1"
+            }
+          ]
+        },
+
+        {
+          "@id": "http://example.org/iiif/book1/canvas/p2",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "height": 1500,
+          "width": 1000,
+
+         
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4444/assets/Photos/SDA_IWA_030.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1500,
+                "width": 1000
+              },
+              "on": "http://example.org/iiif/book1/canvas/p2"
+            }
+          ]
+        },
+
+
+        {
+          "@id": "http://example.org/iiif/book1/canvas/p3",
+          "@type": "sc:Canvas",
+          "label": "Page 3",
+          "height": 1500,
+          "width": 1000,
+
+         
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4444/assets/Photos/SD-01-01-0066.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1500,
+                "width": 1000
+              },
+              "on": "http://example.org/iiif/book1/canvas/p3"
+            }
+          ]
+        }
+
+
+      ]
+    }
+  ]
+}
+
