@@ -12,7 +12,7 @@ cd Documents/CrossingFonds
 3. Clone repository
 
 ```sh
-git clone
+git clone https://github.com/kahaniploessl/crossingFonds-Mirador.git
 ```
     
 
