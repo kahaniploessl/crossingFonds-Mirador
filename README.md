@@ -6,24 +6,33 @@ Crossing Fond's Mirador prototype via local server.
 2. Open Terminal and cd into desired directory
 
 ```sh
-    cd Documents/CrossingFonds
+cd Documents/CrossingFonds
 ```
 
 3. Clone repository
 
-    git clone
+```sh
+git clone
+```
+    
 
 4. cd into repo directory
 
-    cd crossingFonds-Mirador
+```sh
+cd crossingFonds-Mirador
+```
 
 5. Install Libraries
 
-    npm i
+```sh
+npm i
+```
 
 6. Start Server
 
-    npm start
+```sh
+npm start
+```
 
 7. Open HTML
 
