@@ -5,9 +5,9 @@ Crossing Fond's Mirador prototype via local server.
 
 2. Open Terminal and cd into desired directory
 
-'''sh
+```sh
     cd Documents/CrossingFonds
-'''
+```
 
 3. Clone repository
 
