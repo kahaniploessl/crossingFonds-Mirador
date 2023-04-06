@@ -36,6 +36,24 @@ npm start
 
 7. Open HTML
 
-8. Open files with these links:
+        Open webpack/index.html by double clicking the file. This will open your default browser. 
+
+8. Disable Cross-Origin Restrictions
+
+        You will need to disable CORS to proceed. 
+        
+        In Safari, simply locate the toolbar and click Develop->Disable Cross-Origin Restrictions.
+        
+        In Chrome, I recommend downloading a chrome extension that allows you to toggle CORS in the browser.
+        Chrome Extension: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
+
+9. Open files by copy and pasting these links:
+
+        http://localhost:4444/assets/JSON/example.json
+        http://localhost:4444/assets/JSON/box26.json
+        http://localhost:4444/assets/JSON/case1.json
+        http://localhost:4444/assets/JSON/IVC.json
+        http://localhost:4444/assets/JSON/ruthBullock.json
+        http://localhost:4444/assets/JSON/tenDollar.json
 
 
