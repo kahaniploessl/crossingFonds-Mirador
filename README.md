@@ -3,7 +3,11 @@ Crossing Fond's Mirador prototype via local server.
 
 1. Install node.js
 
-2. Open Terminal and cd into desired directory
+```sh 
+https://nodejs.org/en/download
+```
+
+2. Open Terminal (Mac) or Command Prompt (Windows) and cd into desired directory.
 
 ```sh
 cd Documents/CrossingFonds
@@ -15,7 +19,6 @@ cd Documents/CrossingFonds
 git clone https://github.com/kahaniploessl/crossingFonds-Mirador.git
 ```
     
-
 4. cd into repo directory
 
 ```sh
